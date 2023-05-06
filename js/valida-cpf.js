@@ -1,5 +1,5 @@
 export default function umCpf(campo) {
-    const cpf =  campo.value.replace(/\.|-g, "");
+    const cpf =  campo.value.replace(/\.|-/g, "");
     validaNumerosRepetidos(cpf);
 }
 
